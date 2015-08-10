@@ -1,0 +1,711 @@
+@font-face {
+    font-family: marker;
+    src: url(PermanentMarker.ttf);
+}
+
+@media all and (min-width: 300mm) {
+    #uiContainer {
+        position: absolute;
+   
+        width: 60%;
+        bottom: 50px;
+        top : 5px;  
+    
+        height: auto;
+
+        margin-left: 20%;
+
+        font-size: 100%;
+    }
+
+
+
+    
+.bouton-hud {
+    display: block;
+    position: relative;
+    float: left;
+    width: 23%;
+    height: 40%;
+    background-color: #063544;
+    border-width: 4px;
+    border-color: #0A0723;
+    border: solid;
+    margin-top: 10%;
+    
+}
+
+#popUp-Win {
+    position: absolute;
+    float: left;
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-height: 25%;
+    z-index: 10;
+}
+
+    #game_container {
+        width: 100%;
+        height: 80%;
+        position: relative;
+        background-color: grey;
+    }
+
+    #hud_container {
+        width: 100%;
+        height: 20%;
+        position: relative;
+        float: left;
+    }
+
+    #game_screen {
+        width: 60%;
+        height: auto;
+        top: 20px;
+        margin-left: 20%;
+        bottom: 20px;
+        position: absolute;
+    }
+
+    .bouton {
+        font-size: 4em;
+    }
+
+    .bouton-lvl-unlock {
+        font-size: 2em;
+    }
+
+    .bouton-highscore {
+        font-size: 3em;
+    }
+}
+
+@media all and (orientation: landscape) and (max-device-width: 300mm) {
+    
+    #popUp-Win {
+    position: absolute;
+    float: left;
+    width: 80%;
+    height: 70%;
+    margin-left: 10%;
+    margin-height: 15%;
+    z-index: 10;
+    }
+
+    #uiContainer {
+        position: absolute;
+   
+        width: 100%;
+        bottom: 5px;
+        top : 5px;
+    
+        height: auto;
+
+        font-size: 100%;
+    }
+
+    .bouton-hud {
+        display: block;
+        position: relative;
+        float: left;
+        width: 80%;
+        height: 15%;
+        background-color: #063544;
+        border-width: 4px;
+        border-color: #0A0723;
+        border: solid;
+        margin-top: 10%;
+
+    }
+    
+
+    #game_screen {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        float: left;
+    }
+
+    #hud_container {
+        width: 20%;
+        height: 100%;
+        position:absolute;
+        top: 0px;
+        right: 0px;
+        float: right;
+    }
+
+    #game_container {
+        width: 80%;
+        height: 100%;
+        position: relative;
+        background-color: grey;
+    }
+
+    .bouton {
+        font-size: 3em;
+    }
+
+    .bouton-lvl-unlock {
+        font-size: 1em;
+    }
+
+    .bouton-highscore {
+        font-size: 3em;
+    }
+}
+
+@media all and (orientation: portrait){
+    #uiContainer {
+        position: absolute;
+   
+        width: 100%;
+        bottom: 5px;
+        top : 5px;
+    
+        height: auto;
+
+        font-size: 100%;
+    }
+
+    .bouton-hud {
+        display: block;
+        position: relative;
+        float: left;
+        width: 23%;
+        height: 40%;
+        background-color: #063544;
+        border-width: 4px;
+        border-color: #0A0723;
+        border: solid;
+        margin-top: 10%;
+
+    }
+
+    #popUp-Win {
+    position: absolute;
+    float: left;
+    width: 70%;
+    height: 80%;
+    margin-left: 15%;
+    margin-height: 10%;
+    z-index: 10;
+}
+
+    #game_container {
+        width: 100%;
+        height: 80%;
+        position: relative;
+        background-color: grey;
+    }
+
+    #game_screen {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    #hud_container {
+        width: 100%;
+        height: 20%;
+        position: relative;
+        float: left;
+    }
+
+    .bouton {
+        font-size: 3em;
+    }
+
+
+    .bouton-lvl-unlock {
+        font-size: 1em;
+    }
+
+    .bouton-highscore {
+        font-size: 3em;
+    }
+}
+
+.bouton-hud:hover {
+    background-color: #28BBEC;
+}
+
+#uiContainer div:last-child {
+    width: 100%;
+    letter-spacing: 4px;
+}
+
+.bouton:hover {
+    background-color: #28BBEC;
+}
+
+.bouton {
+    width: 100%;
+    height: 25%;
+    background-color: #063544;
+    border-width: 5px;
+    border-color: #0A0723;
+    border: solid;
+    float: left;
+   
+
+    position: relative;   
+}
+
+.bouton-win:hover {
+    background-color: #28BBEC;
+}
+
+.bouton-win {
+    width: 75%;
+    height: 15%;
+    background-color: #063544;
+    float: left;
+    border-width: 5px;
+    border-color: #0A0723;
+    border: solid;
+    margin-left: 12.5%;
+    text-align: center;
+    font-family: marker;
+    text-transform: uppercase;
+    position: relative;  
+} 
+
+.hud-info {
+    position: absolute;
+    cursor: default;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 1%;
+    height: 5%;
+    width: 20%;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: white;
+    font-family: marker, calibri;
+}
+
+.bouton-text {
+    position: relative;
+    top :20%;
+    cursor: default;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: marker, calibri;
+}
+
+.bouton-retour {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 11%;
+    background-color: #12175F;
+
+    cursor: default;
+
+    box-shadow: 1px 1px 20px #0A0A07;
+}
+
+.bouton-container-win {
+    position: relative;
+    float: left;
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    margin-top: 10%;
+    z-index: 10;
+}
+
+#aide {
+    position: relative;
+    background-color: #111639;
+    float: left;
+    cursor: default;
+    text-align: center;
+    font-family: marker, calibri;
+    font-size: 2em;
+    width: 100%;
+    border-width: 5px;
+    border-color: #0A0723;
+    border: solid;
+}
+
+#highscore {
+    position: relative;
+    background-color: #111639;
+    float: left;
+    cursor: default;
+    text-align: center;
+    font-family: marker, calibri;
+    font-size: 2em;
+    width: 100%;
+    border-width: 5px;
+    border-color: #0A0723;
+    border: solid;
+}
+
+#highscore p{color : white;}
+
+#aide p{color :;}
+
+.log-field {
+    position: absolute;
+    background-color: #150B40;
+    height: 15%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15%;
+    border-width: 5px;
+    border-color: blue;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    font-family: marker;
+}
+
+.log-submit:hover {
+    background-color: #28477B;
+}
+
+.log-submit {
+    cursor: default;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 35%;
+    background-color: #122038;
+    height: 15%;
+    width: 40%;
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    font-family: marker;
+    border: solid;
+}
+
+.logo {
+    cursor: default;
+    font-family: marker;
+    text-align: center;
+    width: 60%;
+    height: 20%;
+    font-size: 5em;
+    margin-left: 20%;
+    color: #122038;
+}
+
+.score-win {
+    float: left;
+    width: 75%;
+    height: 60%;
+    color: white;
+    font-family: marker;
+    font-size: 2em;
+    text-align: center;
+    background-color: #063544;
+    float: left;
+    border-width: 4px;
+    border-color: #0A0723;
+    border-style: solid;
+    margin-left: 12.5%;
+}
+
+#body {
+    background-color: grey;
+}
+
+.bouton-lvl-unlock {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 11%;
+    background-color: #1A228C;
+
+    cursor: default;
+
+    box-shadow: 1px 1px 20px #0A0A07;
+}
+
+.star {
+    display: block;
+float: left;
+    max-width: 40px;
+    max-height: 40px;
+    height: 40px;
+    width: 40px;
+    margin-left: 80%;
+    margin-top: -8%;
+
+}
+
+.ContainerHighScore .bouton:last-child:hover {
+    background-color: background-color: #063544;
+}
+
+
+.star img{
+    float: inherit;
+
+    display: block;
+
+    height: 40px;
+    width: 40px;
+
+
+}
+
+.bouton-lvl-lock {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 11%;
+    background-color: #040515;
+
+    cursor: default;
+
+    box-shadow: 1px 1px 20px #0A0A07;
+}
+
+
+.bouton-highscore {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 10%;
+    border: solid;
+    border-width: 4px;
+    border-color: black;
+    background-color: #1A228C;
+    cursor: default;
+}
+
+#title_interlvl {
+    background: url(../imgs/ui/Rectangle-1.png);
+    height: 300px;
+    width: 1000px;
+    background-size: contain;
+    margin-left: 15%;
+    margin-top: 10%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+                0 3px 5px rgba(0, 0, 0, .2),
+                0 5px 10px rgba(0, 0, 0, .2),
+                0 20px 20px rgba(0, 0, 0, .15);
+}
+
+#title_interlvl p{
+    font-size: 30px;
+    font-family: calibri;
+    margin-top: auto;
+    line-height:70px;
+    text-align:center;
+    vertical-align:middle;
+    text-decoration: none;
+    
+}
+
+.boutonReturn{
+    display:block;
+    width:150px;
+    line-height:50px;
+    text-align:center;
+    vertical-align:middle;
+    background:url(../imgs/ui/Rectangle-1.png);
+    font-size: 30px;
+    font-family: calibri;
+    text-decoration: none;
+    background-size: contain;
+    clear: both;
+    position: inherit;
+}
+
+#player {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    background: url(../imgs/game/player.png);
+    background-size: cover;
+}
+
+.case {
+    display: block;
+    position:absolute;
+    background: url(../imgs/game/sol3.png);
+    background-size: cover;
+}
+
+
+.caseMoveleft {
+    display: block;
+    position: absolute;
+    background: url(../imgs/game/tapis_roulant_left_anim.png);
+    background-size: cover;
+    background-position: 0px, 0px;
+    background-repeat: no-repeat;
+}
+
+.caseMoveright {
+    display: block;
+    position: absolute;
+    background: url(../imgs/game/tapis_roulant_right_anim.png);
+    background-size: cover;
+}
+
+.caseMovedown {
+    display: block;
+    position: absolute;
+    background: url(../imgs/game/tapis_roulant_down_anim.png);
+    background-size: cover;
+}
+
+.caseMoveup {
+    display: block;
+    position: absolute;
+    background: url(../imgs/game/tapis_roulant_up_anim.png);
+    background-size: cover;
+    background-position: 0px, 0px;
+    background-repeat: no-repeat;
+}
+
+.ciblered {
+    display: block;
+    position: absolute;
+    background: url(../imgs/game/cible_red.png);
+    background-size: cover;
+}
+
+.ciblegreen {
+    display: block;
+    position: absolute;
+    background: url(../imgs/game/cible_green.png);
+    background-size: cover;
+}
+
+.cibleblue {
+    display: block;
+    position: absolute;
+    background: url(../imgs/game/cible_blue.png);
+    background-size: cover;
+}
+
+.mur {
+    display: block;
+    position: absolute;
+    background: url(../imgs/game/wall2.png);
+    background-size: cover;
+}
+
+.potblue {
+    display: block;
+    position: absolute;
+    background: url(../imgs/game/bucket_blue.png);
+    background-size: cover;
+    z-index: 3;
+}
+
+.potgreen {
+    display: block;
+    position: absolute;
+    background: url(../imgs/game/bucket_green.png);
+    z-index: 3;
+    background-size: cover;
+}
+
+.potred {
+    display: block;
+    position: absolute;
+    background: url(../imgs/game/bucket_red.png);
+    z-index: 3;
+    background-size: cover;
+}
+
+.border_down {
+    display: block;
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(../imgs/game/border_horizontal.png);
+}
+
+.border_up {
+    display: block;
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(../imgs/game/border_horizontal.png);
+}
+
+.border_left {
+    display: block;
+    position: absolute;
+    height: 100px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(../imgs/game/border_vertical.png);
+}
+
+.border_right {
+    display: block;
+    position: absolute;
+    height: 100px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(../imgs/game/border_vertical.png);
+}
+
+.border_corner_right_up {
+    display: block;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: url(../imgs/game/border_corner_botleft.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.border_corner {
+    display: block;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: url(../imgs/game/border_corner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.border_corner_left_up {
+    display: block;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: url(../imgs/game/border_corner_botright.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.border_corner_left_down {
+    display: block;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: url(../imgs/game/border_corner_topright.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.border_corner_right_down {
+    display: block;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: url(../imgs/game/border_corner_topleft.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

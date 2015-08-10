@@ -1,0 +1,111 @@
+<xliff version='1.2'>
+	<file original='' source-language='en-US' target-language='en-US'>
+		<header></header>
+		<body>
+			<trans-unit id='LABEL_MENU'>
+				<source>Menu</source>
+				<target>Menu</target>
+			</trans-unit>
+			<trans-unit id='LABEL_PLAY'>
+				<source>Play</source>
+				<target>Play</target>
+			</trans-unit>
+			<trans-unit id='LABEL_RETRY'>
+				<source>Retry</source>
+				<target>Retry</target>
+			</trans-unit>
+            <trans-unit id='LABEL_QUIT'>
+                <source>Quit</source>
+                <target>Quit</target>
+            </trans-unit>
+            <trans-unit id='LABEL_UNDO'>
+                <source>Undo</source>
+                <target>Undo</target>
+            </trans-unit>
+            <trans-unit id='LABEL_REDO'>
+                <source>Redo</source>
+                <target>Redo</target>
+            </trans-unit>
+            <trans-unit id='LABEL_RESTART'>
+                <source>Restart level</source>
+                <target>Restart</target>
+            </trans-unit>
+			<trans-unit id='LABEL_LEVEL'>
+				<source>Level</source>
+				<target>Level</target>
+			</trans-unit>
+            <trans-unit id='LABEL_GG'>
+            <source>Level finished</source>
+            <target>Level finished</target>
+            </trans-unit>
+			<trans-unit id='LABEL_NEXTLEVEL'>
+				<source>Next level</source>
+				<target>Next level</target>
+			</trans-unit>
+			<trans-unit id='LABEL_LEVELSELECTION'>
+				<source>Level selection</source>
+				<target>Level selection</target>
+			</trans-unit>
+			<trans-unit id='LABEL_HIGHSCORE'>
+				<source>Highscore</source>
+				<target>Highscore</target>
+			</trans-unit>
+			<trans-unit id='LABEL_HELP'>
+				<source>Help</source>
+				<target>Help</target>
+			</trans-unit>
+			<trans-unit id='LABEL_STATISTICS'>
+				<source>Statistics</source>
+				<target>Statistics</target>
+			</trans-unit>
+			<trans-unit id='LABEL_BACK'>
+				<source>Back</source>
+				<target>Back</target>
+			</trans-unit>
+			<trans-unit id='STATS_MOVESPERLVL'>
+				<source>Number of moves per level</source>
+				<target>Number of moves per level</target>
+			</trans-unit>
+			<trans-unit id='STATS_TOTALMOVES'>
+				<source>Number of moves</source>
+				<target>Number of moves</target>
+			</trans-unit>
+			<trans-unit id='HELP_DESCR_GAME'>
+				<source>Sokoban is a puzzle game that puts the player in the shoes of a handler in an unreasonably crowded and quirky warehouse.</source>
+				<target>Sokoban is a puzzle game that puts the player in the shoes of a handler in an unreasonably crowded and quirky warehouse.</target>
+			</trans-unit>
+			<trans-unit id='HELP_HOWTOPLAY1'>
+				<source>The player can move his character and push buckets. He cannot walk through walls or buckets.</source>
+				<target>The player can move his character and push buckets. He cannot walk through walls or buckets.</target>
+			</trans-unit>
+			<trans-unit id='HELP_HOWTOPLAY2'>
+				<source>The goal is to get each bucket on a target cell.</source>
+				<target>The goal is to get each bucket on a target cell.</target>
+			</trans-unit>
+			<trans-unit id='HELP_HOWTOPLAY3'>
+				<source>If a bucket is found to be on a moving walkway, it will be moved in the direction indicated by the moving walkway.</source>
+				<target>If a bucket is found to be on a moving walkway, it will be moved in the direction indicated by the moving walkway.</target>
+			</trans-unit>
+			<trans-unit id='HELP_HOWTOPLAY4'>
+				<source>If any obstacle is found to be on the cell where a bucket should be moved, the bucket won't move as long as the cell won't have been freed.</source>
+				<target>If any obstacle is found to be on the cell where a bucket should be moved, the bucket won't move as long as the cell won't have been freed.</target>
+			</trans-unit>
+			<trans-unit id='HELP_HOWTOPLAY5'>
+				<source>Try to complete each level by making the least moves possibles in order to score more !</source>
+				<target>Try to complete each level by making the least moves possibles in order to score more !</target>
+			</trans-unit>
+			<trans-unit id='LABEL_LOGINPLACEHOLDER'>
+				<source>Username</source>
+				<target>Username</target>
+			</trans-unit>
+			<trans-unit id='LABEL_LOGIN'>
+				<source>Login</source>
+				<target>Login</target>
+			</trans-unit>
+			<trans-unit id='LABEL_FINAL_GG'>
+				<source>Congratulations ! You've completed the game !</source>
+				<target>Congratulations ! You've completed the game !</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

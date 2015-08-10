@@ -1,0 +1,49 @@
+#title {
+    background: url(../imgs/ui/Rectangle-1.png);
+    height: 300px;
+    width: 1000px;
+    background-size: contain;
+    margin-left: 25%;
+    margin-top: 15%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+        0 3px 5px rgba(0, 0, 0, .2),
+        0 5px 10px rgba(0, 0, 0, .2),
+        0 20px 20px rgba(0, 0, 0, .15);
+}
+
+#title p{
+    font-size: 70px;
+    font-family: calibri;
+    margin-top: 10%;
+    line-height:70px;
+    text-align:center;
+    vertical-align:middle;
+    text-decoration: none;
+
+}
+
+body {
+    background-color: grey;
+}
+form {
+    margin-left: 35%;
+    width: 300px;
+    height: 90px;
+    font-family: calibri;
+    text-align: center;
+    background:url(../imgs/ui/Rectangle-1.png);
+    background-size: contain;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+        0 3px 5px rgba(0, 0, 0, .2),
+        0 5px 10px rgba(0, 0, 0, .2),
+        0 20px 20px rgba(0, 0, 0, .15);
+
+}
+
+input[type="submit"] {
+    width:150px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+        0 3px 5px rgba(0, 0, 0, .2),
+        0 5px 10px rgba(0, 0, 0, .2),
+        0 20px 20px rgba(0, 0, 0, .15);
+}
